@@ -1,0 +1,12 @@
+Package: openfield
+Title: Open Field Test Analysis and Plot
+Description: Analyzes and plots Open Field Test outcomes. This is a fundamental behavioral test used for studying psychiatric disorders (e.g., anxiety, PTSD) in animal models (i.e., rats and mice). The package is able to automatically analyze and plot: 1. time spent in the center of the arena; 2. thigmotaxis; 3. freezing; 4. rearing behavior.
+Version: 1.0
+Encoding: UTF-8
+Authors@R: person("Francesco Luigi", "Cartabia", email = "francescocartabia2001@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: https://youtu.be/p4WNz1q7WLA
+Imports:
+  dplyr,
+  ggplot2
+Config/roxygen2/version: 8.1.1
